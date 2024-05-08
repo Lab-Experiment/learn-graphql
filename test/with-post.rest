@@ -1,0 +1,14 @@
+# Name: REST Client
+# Id: humao.rest-client
+# Description: REST Client for Visual Studio Code
+# Version: 0.25.1
+# Publisher: Huachao Mao
+# VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+POST http://[::1]:3000/graphql HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "query": "query { user(id: \"cfb04596-52ca-41c5-a901-3944b7790e37\") { id name email } users { id name email }}"
+}

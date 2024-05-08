@@ -1,0 +1,31 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "description": "Learning GraphQL",
+  "main": "./server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deri-Kurniawan/learning-graphql.git"
+  },
+  "author": "Deri Kurniawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deri-Kurniawan/learning-graphql/issues"
+  },
+  "homepage": "https://github.com/Deri-Kurniawan/learning-graphql#readme",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "ruru": "2.0.0-beta.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
